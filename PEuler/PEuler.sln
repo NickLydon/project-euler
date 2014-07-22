@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PEuler", "PEuler\PEuler.fsproj", "{CEE3D38E-827E-46C4-9EC5-48546B1FB267}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PEuler.Tests", "PEuler.Tests\PEuler.Tests.fsproj", "{88EC3850-BA92-41E3-B139-79F308FF8596}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9BAEA2A9-1E85-4C54-8504-006350384393}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE3D38E-827E-46C4-9EC5-48546B1FB267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE3D38E-827E-46C4-9EC5-48546B1FB267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE3D38E-827E-46C4-9EC5-48546B1FB267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE3D38E-827E-46C4-9EC5-48546B1FB267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EC3850-BA92-41E3-B139-79F308FF8596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EC3850-BA92-41E3-B139-79F308FF8596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EC3850-BA92-41E3-B139-79F308FF8596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EC3850-BA92-41E3-B139-79F308FF8596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
